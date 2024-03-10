@@ -1,0 +1,81 @@
+*{
+    font-family: "Manrope", sans-serif;
+}
+#banner{
+    margin-top: 50px;
+}
+.ban_text{
+    margin-top: 30px !important;
+}
+.ban_text h1{
+    color: #000;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+}
+.ban_text p{
+    color: #64607D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.see{
+    margin-top: 30px;
+    display: flex;
+}
+.btn {
+    padding: 15px 30px !important;
+    margin-right: 20px;
+    font-size: 16px !important;
+    line-height: 30px;
+    font-weight: 400 !important;
+}
+.ban_icon{
+    width: 50px;
+    height: 50px;
+    color: #22D497;
+    margin-right: 10px;
+}
+.bann_img{
+    width: 100%;
+}
+
+@media (min-width:320px) and (max-width:575.98px){
+    .ban_text h1{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .ban_text p{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .see{
+        display: block;
+    }
+    .see .btn{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .ban_text h1{
+        font-size: 45px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .ban_text p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+   
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}

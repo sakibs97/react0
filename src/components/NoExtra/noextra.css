@@ -1,0 +1,85 @@
+*{
+    font-family: "Manrope", sans-serif;
+}
+#noext{
+    margin-bottom: 30px;
+}
+.noextara{
+    background-color: #F3F7FA;
+    padding: 30px !important;
+    border-radius: 20px;
+}
+.noex_head h6{
+    color: #3734A9;
+    font-size: 18px;
+    font-weight: 600;
+}
+.noex_head h2{
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+.noex_head{
+    justify-content: center;
+}
+.noex_dtls{
+    display: flex;
+}
+.no_icon{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    color: #F7ECFD;
+}
+.no_icon2{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    color: #D8F5F1;
+}
+.no_icon3{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    color: #D9F1FD;
+}
+.no_icon4{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    color: #FFE4E3;
+}
+.noex_dtls{
+    border: 2px solid #FFFFFF;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.noex_text h4{
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+}
+.noex_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757095;
+}
+@media (min-width:320px) and (max-width:575.98px){
+    
+}
+@media (min-width:576px) and (max-width:767.98px){
+    
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .navbar-collapse{
+        text-align: center;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}

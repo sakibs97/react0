@@ -1,0 +1,93 @@
+*{
+    font-family: "Manrope", sans-serif;
+}
+#free{
+    margin-bottom: 30px;
+}
+.from_reg{
+    position: relative;
+}
+.from_text{
+    text-align: center;
+    margin-top: 30px;    
+}
+.bird_log{
+    position: absolute;
+    top: -20%;
+    right: -25%;
+}
+.reee{
+    justify-content: space-around;
+    background-color: #F3F7FA;
+    padding: 30px;
+    border-radius: 20px;
+}
+.reee h6{
+    color: #3734A9;  
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.reee h2{
+    color: #000;  
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.reee p{
+    color: #757095;  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.free_btn{
+    width: 100%;
+    background-color: #FF7F5C !important;
+    border: none !important;
+}
+@media (min-width:320px) and (max-width:575.98px){
+    .reee h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .reee p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bird_log{
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .reee h2{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .reee p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .bird_log{
+        right: -10%;
+    }
+    .bird_log img{
+        width: 70%;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .bird_log{
+        top:-10%;
+        right: -0%;
+    }
+    .bird_log img{
+        width: 70%;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+
+}
