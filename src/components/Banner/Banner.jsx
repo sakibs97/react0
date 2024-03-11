@@ -17,7 +17,7 @@ const Banner = () => {
                         </Col>
                         <div className="see">
                             <Startreusable />
-                            <a href="#"><FaCirclePlay className="ban_icon" /> See How It Works</a>
+                            <a href="#" className="seeas"><FaCirclePlay className="ban_icon" /> See How It Works</a>
                         </div>
                     </Col>
                     <Col lg={6} xs={12} className="p-0">
