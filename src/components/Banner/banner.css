@@ -53,16 +53,12 @@
     }
     .see{
         display: block;
+        text-align: center;
     }
     .see .btn{
         margin-bottom: 30px;
     }
-    .start_re{
-        text-align: center;
-    }
-    .ban_icon{
-        margin-left: 50px;
-    }
+    
     
 }
 @media (min-width:576px) and (max-width:767.98px){
