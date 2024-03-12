@@ -10,6 +10,7 @@ import Menu from "./components/Menu/Menu"
 import NoExtra from "./components/NoExtra/NoExtra"
 import PayPart from "./components/Payment/PayPart"
 import Residence from "./components/Residence/Residence"
+import Saying from "./components/Saying/Saying"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Feature />
       <Free />
       <Choose />
+      <Saying />
       <Residence />
       <PayPart />
       <NoExtra />
