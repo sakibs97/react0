@@ -5,7 +5,7 @@
     margin-top: 50px;
 }
 .ban_text{
-    margin-top: 30px !important;
+    margin-top: 100px !important;
 }
 .ban_text h1{
     color: #000;
@@ -39,7 +39,15 @@
 .bann_img{
     width: 100%;
 }
-
+.bann_img_part{
+    position: relative;
+}
+.banner_img{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
 @media (min-width:320px) and (max-width:575.98px){
     .ban_text h1{
         font-size: 40px;
@@ -58,7 +66,13 @@
     .see .btn{
         margin-bottom: 30px;
     }
-    
+    .banner_img{
+        top: 40%;
+        left: 10%;
+    }
+    .bann_img{
+        margin-bottom: 30px;
+    }
     
 }
 @media (min-width:576px) and (max-width:767.98px){

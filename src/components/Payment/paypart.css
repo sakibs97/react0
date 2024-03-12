@@ -1,14 +1,74 @@
-
+*{
+    font-family: "Manrope", sans-serif;
+}
+#paypart{
+    margin-bottom: 30px;
+}
+.pay_maiimg{
+    position: relative;
+}
+.pay_img{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+.pay_dtls{
+    border: 2px solid #F5F6F8;
+    padding: 20px;
+    background-color: #F5F6F8;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.pay_dtls:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.pay_img_text{
+    margin-left: 30px;
+}
+.pay_img_text h3{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #3734A9;
+}
+.pay_img_text h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757095;
+}
 @media (min-width:320px) and (max-width:575.98px){
-    
+    .pay_dtls{
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    .pay_img_text h3{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .pay_img_text h5{
+        font-size: 10px;
+        
+        line-height: 10px;
+    }
+    .pay_dtls img{
+        width: 20%;
+    }
+    .pay_img{
+        position: absolute;
+        top: 56%;
+        left: 10%;
+    }
 }
 @media (min-width:576px) and (max-width:767.98px){
     
 }
 @media (min-width:768px) and (max-width:991.98px){
-    .navbar-collapse{
-        text-align: center;
-    }
+    
 }
 @media (min-width:992px) and (max-width:1199.98px){
     
