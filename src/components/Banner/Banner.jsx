@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import { FaCirclePlay } from "react-icons/fa6";
 import { Startreusable } from "../reusable/Startreusable";
 import Ellipse2 from "../../assets/small/Ellipse2.png"
+import banone from "../../assets/banone.png"
 
 const Banner = () => {
     return (
@@ -30,6 +31,9 @@ const Banner = () => {
                                     <h3>+ $28,900</h3>
                                     <h5>Received from Michael V</h5>
                                 </div>
+                            </div>
+                            <div className="pay_img_one">
+                                <img src={banone} alt="" />
                             </div>
                         </div>
                     </Col>

@@ -48,6 +48,11 @@
     left: -20px;
     transform: translateY(-50%);
 }
+.pay_img_one img{
+    position: absolute;
+    left: -50%;
+    top: 100%;    
+}
 @media (min-width:320px) and (max-width:575.98px){
     .ban_text h1{
         font-size: 40px;
@@ -72,6 +77,11 @@
     }
     .bann_img{
         margin-bottom: 30px;
+    }
+    .pay_img_one img{
+        position: absolute;
+        left: -20%;
+        width: 100%;   
     }
     
 }
